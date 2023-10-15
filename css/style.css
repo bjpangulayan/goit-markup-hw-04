@@ -17,7 +17,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     text-transform: capitalize;
-}
+    }
 .container {
     width: 1440px;
 }
@@ -145,9 +145,10 @@ ul.section3-teamlist{
  }
 li.staff {
     box-shadow: 1px 2px 6px 1px #2E2F4229;
+    background-color: var(--WHITE);
     text-align: center;
     width: 264px;
-    height: 380px;
+    height: 428px;
     border-radius: 2%;
  }
 .subsections {
@@ -174,6 +175,7 @@ li.staff {
     color: var(--WHITE);
 }
 .footer {
+    display: flex;
     background-color: var(--NAVY-BLUE);
     padding-top: 120px;
     padding-bottom: 120px;
@@ -181,8 +183,76 @@ li.staff {
 .footer-details {
     color: var(--WHITE);
 }
+.footer-icon {
+    display: flex;
+ }
+ 
+.footer-icons div {
+    display: flex;
+   
+}
+ 
+.footer-section {
+    display: flex;
+    gap: 120px;
+}
 /*end of footer section*/
 
+/*icon styling*/
+.ethics-icon {
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--CLOUD);
+    }
+.teamlist {
+    display: flex;
+    justify-content: space-around;
+}
+.teamlist-icon {
+    background-color: var(--IRIS);
+    fill: var(--WHITE);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer-links {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+}
+.customer-links-icon{ 
+    border: 1px solid #8e8f99;
+    padding: 10px 32px;
+    border-radius: 4px;
+}
+.customer-links-icon svg {
+    fill: #8e8f99;
+}
+.customer-links-icon:hover,
+.customer-links-icon:focus {
+    border-color: var(--IRIS);
+}
+.customer-links-icon svg:hover,
+.customer-links-icon svg:focus {
+    fill: var(--IRIS);
+}
+.footerlist-icon  {
+
+        background-color: var(--IRIS);
+        fill: var(--WHITE);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+/*end of icon styling*/
 /*portfolio*/
 
 ul.card-list {
@@ -190,12 +260,10 @@ ul.card-list {
     border-bottom: #2E2F42;
 }
 li.port {
-   
     text-align: center;
     width: 370px;
     height: 420px;
     border-radius: 2%;
-    border-bottom:solid #2E2F42;
-   
+    border-bottom:solid #2E2F42; 
 }
 
