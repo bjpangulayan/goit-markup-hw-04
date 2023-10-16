@@ -9,9 +9,10 @@
 /*General Styles*/
 body {
     font-family: "Roboto", sans-serif;
-     color: var(--NAVY-BLUE);
-   
-    }
+    color: var(--NAVY-BLUE);
+    margin: 0 auto;
+    max-width: 1440px;
+      }
 .section-title {
     text-align: center;
     font-family: "Roboto", sans-serif;
